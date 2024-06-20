@@ -1,4 +1,6 @@
-public class Main {
+package example;
+
+public class example01 {
     public static void main(String[] args) {
         saludar();
     }
