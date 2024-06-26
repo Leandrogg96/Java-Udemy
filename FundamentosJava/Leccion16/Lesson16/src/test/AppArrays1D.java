@@ -2,10 +2,10 @@ package test;
 
 import domain.Plant;
 
-public class AppArrays {
+public class AppArrays1D {
     public static void main(String[] args) {
 
-        // Primitive array
+        // Primitive array 1 dimension
         int ages[] = new int[3];
         System.out.println("ages = " + ages);
 
@@ -18,8 +18,8 @@ public class AppArrays {
             System.out.println("Edades: " + ages[i]);
         }
 
-        // Object array
-        Plant plants[] = new Plant[3];
+        // Object array 1 dimension
+        Plant plants[] = new Plant[2];
         for (int i = 0; i < plants.length; i++) {
             plants[i] = new Plant();
         }
@@ -27,6 +27,7 @@ public class AppArrays {
             System.out.println("------ PLANTA ------");
             System.out.println(plants[i].toString());
         }
+
 
     }
 }
